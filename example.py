@@ -70,7 +70,6 @@ class GCContent(Specification):
             message="GC: %s at %s" % (score, location),
         )
     
-
 class myDesigner(SequenceDesigner):
 
     def define_problem(self, sequence,solution_id):
@@ -85,9 +84,6 @@ class myDesigner(SequenceDesigner):
         
         return problem
         
-
-
-
 # design =   FullFactorial(
 design =      Optimization(
         ['cai','gc'],
