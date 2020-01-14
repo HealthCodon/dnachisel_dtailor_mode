@@ -11,7 +11,7 @@ python:
 install:
     - pip install dnachisel # install dependencies that are used in the tests.
     - pip install pytest # install pytest to run the tests
-    - pip install -e . # install your current project using this source code
+    # - pip install -e . # install your current project using this source code
 
 # command to run tests
 script:
