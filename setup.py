@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dnachisel_dtailor_mode", # Replace with your own username
-    version="0.0.2",
+    version="0.1.0",
     author="Li Xing",
     author_email="lix930701@gmail.com",
     description="implement d-tailor method using dnachisel specs",
