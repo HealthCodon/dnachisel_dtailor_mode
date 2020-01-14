@@ -1,0 +1,18 @@
+language: python
+python:
+    - "3.6"
+
+# command to install non-python dependencies:
+# before_install:
+    # - sudo apt-get -qq update
+    # - sudo apt-get install ncbi-blast+
+
+# command to install dependencies
+install:
+    - pip install dnachisel # install dependencies that are used in the tests.
+    - pip install pytest # install pytest to run the tests
+    - pip install -e . # install your current project using this source code
+
+# command to run tests
+script:
+    - python -m pytest
